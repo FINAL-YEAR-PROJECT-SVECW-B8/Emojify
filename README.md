@@ -48,6 +48,7 @@ __________________________________________
 ___________________________________________
 7.Usage:
     i)Firstly install jupyter notebook with help of "IVCSE_2021_B8\software\jupyter guidelines"
+    
     ii)In search bar,Type Anaconda prompt(run as administrator) and run the below commands one after the other finishing
            a.pip install keras
            b.pip install tensorflow
@@ -59,6 +60,7 @@ ___________________________________________
            h.pip install flask
            i.pip install flask_session
        close anaconda prompt after finishing of excution.
+       
       iii)Now create a path in device for saving the below files in that path 
              EX:C:\Users\Lenovo\Documents\PROJECT
             (create project document in documents folder and upload below files)
@@ -67,6 +69,7 @@ ___________________________________________
      iv)Now copy and paste the "IVCSE_2021_B8\Dataset\vgg_face_weights.h5" 
           in  "c:/users/(lenovo or username)/.deepface /weights" path
       v)Install mysql with help of "IVCSE_2021_B8\software\mysql guidelines"(while installing keep root as password)
+      
        vi)Now type  mysql5.5 command client app in search bar and app will be opened.Enterpassword as root.now
            write below commands in that 
               a.create database splatz;
@@ -75,9 +78,11 @@ ___________________________________________
               d.create table exam(name varchar(25),quiz varchar(25),angry float,disgust float,fear float,happy float,neutral float,sad float,surprise float,Emotion varchar(25),attended varchar(25));
               e.create table history(name varchar(25),topic varchar(25),angry float,disgust float,fear float,happy float,neutral float,sad float,surprise float,Emotion varchar(25),attended varchar(25),present varchar(25));
           close the mysql app after finishing of execution
+          
        vi)open jupyter notebook and upload below files(in home page of jupyter book)
             a.casacade file from  "IVCSE_2021_B8\software\haarcascade_frontalface_default.xml"
             b.source file from "IVCSE_2021_B8\source\Emojify.ipynb"
+            
       vii)Now click on Emojify.ipynb in home page of jupyter notebook then file opens.
            In second cell enter cd "your path" ( path you created in step III for storing files).
            EX:cd "C:\Users\Lenovo\Documents\PROJECT"
@@ -86,15 +91,19 @@ ___________________________________________
                           img2 = cv2.imread(r"C:\Users\Lenovo\Documents\PROJECT\img2.jpg")
           and change these according to the path you have created for img1 it should be navigate to UserImages in staticfolder
           and for img2 it should be in project folder(where all static files and template files reside).
+          
      viii)Now after doing these changes now run cell by cell and at last cell you will get link in ouput and after clicking on link
             it will navigate you to the flask website.
+            
    ix)In student login we can see learn  in which we have topic if selected redirects to a video page.
        click on start recording button starts webcam when we press q webcam stops and redirects to previous page.
         Same with exam , in that we have a random quizsame process applies to it also.
+        
    x) In admin login, in which you can see registered student emotion percentages in exam and learning.can also register student.
         while registering a student make sure that you have to upload image in your  "static/UserImages" and write the 
          name with its extension in image path.
          EX:(Imagepath)bhanu.jpg
+         
    xi)And project execution complete.
 _____________________________________________________________
   8.Project github link:
