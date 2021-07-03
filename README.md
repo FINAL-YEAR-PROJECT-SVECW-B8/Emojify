@@ -121,7 +121,7 @@ ___________________________________________
          name with its extension in image path.
          EX:(Imagepath)bhanu.jpg
          
-   xi)And project execution complete.
+       xi)And project execution complete.
 _____________________________________________________________
   8.Project github link:
       https://github.com/FINAL-YEAR-PROJECT-SVECW-B8/Emojify.git
