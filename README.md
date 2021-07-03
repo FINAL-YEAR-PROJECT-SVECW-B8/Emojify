@@ -20,16 +20,19 @@ ______________________________________
 8.Project github link
 _______________________________________
 1.About Project:
+
      In this project,we are going to analyze the student emotions in online platforms and also we are authenticating 
      verified student only attending and give their emotion percentage and attended time to authority.
 _______________________________________
 2.Purpose of project:
+
         Due to pandemic, everything has turned to online .So at this time most of the schools,colleges  conducting 
         online classes.At this time,making students to listen to the class is a major concern so if we try to analyse 
         the emotions(which describe their attentiveness) and also validating that the registered person only listen
         to the class.This  will useful in various online e-learning platforms also.
 ______________________________________________
 3.Dataset:
+
       i)For facial expression recognition:
       Can have dataset either by
       we can download the dataset from kaggle repository.The guidelines will be present in
@@ -42,16 +45,20 @@ ______________________________________________
          (* which should be pasted after allsoftware installations) 
 _______________________________________________
 4.Database:
+
        To know about the database design see in "IVCSE_2021_B8\database\design.png".
 _______________________________________________
 5.Required softwares list:
+
        we require different softwares for the project:
         i)Jupyter notebook(For model development)
          you can download the notebook from "IVCSE_2021_B8\software\jupyter guidelines"
+         
         ii)Mysql 5.5 command client App(For database)
          you can download the notebook from "IVCSE_2021_B8\software\mysql guidelines"
 __________________________________________
 6.Project files:
+
     you can find source file from "IVCSE_2021_B8\source\Emojify.ipynb"
 ___________________________________________
 7.Usage:
@@ -105,11 +112,11 @@ ___________________________________________
      viii)Now after doing these changes now run cell by cell and at last cell you will get link in ouput and after clicking on link
             it will navigate you to the flask website.
             
-   ix)In student login we can see learn  in which we have topic if selected redirects to a video page.
+      ix)In student login we can see learn  in which we have topic if selected redirects to a video page.
        click on start recording button starts webcam when we press q webcam stops and redirects to previous page.
         Same with exam , in that we have a random quizsame process applies to it also.
         
-   x) In admin login, in which you can see registered student emotion percentages in exam and learning.can also register student.
+      x) In admin login, in which you can see registered student emotion percentages in exam and learning.can also register student.
         while registering a student make sure that you have to upload image in your  "static/UserImages" and write the 
          name with its extension in image path.
          EX:(Imagepath)bhanu.jpg
