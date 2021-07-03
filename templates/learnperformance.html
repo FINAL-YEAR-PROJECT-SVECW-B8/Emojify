@@ -1,0 +1,42 @@
+<html>
+<body>
+    <center>
+<table border="2"> 
+    <thead> 
+    <tr> 
+    <th>Name</th>
+    <th>Topic</th>
+    <th>Angry%</th>
+    <th>Disgust%</th>
+    <th>Fear%</th>
+    <th>Happy%</th>
+    <th>Neutral%</th>
+    <th>Sad%</th>
+    <th>Surprise%</th>
+    <th>Emotion</th>
+    <th>Attended(in secs)</th>
+    <th>Present/Absent</th>
+    </tr> 
+    </thead> 
+    <tbody> 
+        {% for row in value %}  
+            <tr> 
+                <td>{{row[0]}}</td> 
+                <td>{{row[1]}}</td> 
+                <td>{{row[2]}}</td> 
+                <td>{{row[3]}}</td> 
+                <td>{{row[4]}}</td> 
+                <td>{{row[5]}}</td> 
+                <td>{{row[6]}}</td> 
+                <td>{{row[7]}}</td> 
+                <td>{{row[8]}}</td> 
+                <td>{{row[9]}}</td> 
+                <td>{{row[10]}}</td> 
+                <td>{{row[11]}}</td> 
+            </tr> 
+        {% endfor %} 
+    </tbody> 
+</table> 
+</center>
+</body>
+</html>

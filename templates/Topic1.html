@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+     <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+
+</head>
+<body> 
+<div style="text-align:center"> 
+  <video  id="video1" width="850" height = "600" autoplay>
+    <source src="{{ url_for('static', filename='vid.mp4')}}" type="video/mp4">
+  </video>
+</div> 
+<a href="/Studentlogin/Learn/Topic1/Task"><button style="margin-left:300px;width:200px;background-color: green;height:30px;">Start Recording</button></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<center><h4 style="width:200px;background-color: red;height:30px;">Stop Recording press q</h4></center>
+<script> 
+
+var myVideo = document.getElementById("video1"); 
+  
+    //$.ajax({
+  //type : "POST",
+  //url : '/Studentlogin/Learn/Topic1/Task',
+  //dataType: "json",
+  //contentType: 'application/json;charset=UTF-8',
+ // });
+  //}
+ // window.onunload = function(){
+   //  $.ajax({
+  //type : "POST",
+  //url : '/Studentlogin/Learn/Topic1/Task1',
+  //dataType: "json",
+  //contentType: 'application/json;charset=UTF-8',
+  //success: function (data) {
+    //console.log(data);
+    //}
+  //});
+//};
+   
+    window.addEventListener('contextmenu', function (e) { 
+  e.preventDefault(); 
+}, false);
+
+
+</script> 
+</body> 
+</html>
