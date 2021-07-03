@@ -4,12 +4,19 @@
 Table Of Contents:
 ______________________________________
 1.About Project.
+
 2.Purpose of project
+
 3.Dataset
+
 4.Database
+
 5.Required software files list
+
 6.Project files
+
 7.Usage(Steps for project execution)
+
 8.Project github link
 _______________________________________
 1.About Project:
