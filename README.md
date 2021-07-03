@@ -28,6 +28,7 @@ ______________________________________________
       we can download the dataset from kaggle repository.The guidelines will be present in
        "IVCSE_2021_B8\Dataset\DatasetDownload guidelines" OR can have the zip folder which
          is present in "IVCSE_2021_B8\Dataset\dataset.zip"
+         
       ii)For Facial verification:
          copy and paste the "IVCSE_2021_B8\Dataset\vgg_face_weights.h5" 
          in c:/users/(lenovo or username)/.deepface /weights
@@ -47,6 +48,7 @@ __________________________________________
     you can find source file from "IVCSE_2021_B8\source\Emojify.ipynb"
 ___________________________________________
 7.Usage:
+
     i)Firstly install jupyter notebook with help of "IVCSE_2021_B8\software\jupyter guidelines"
     
     ii)In search bar,Type Anaconda prompt(run as administrator) and run the below commands one after the other finishing
@@ -66,6 +68,7 @@ ___________________________________________
             (create project document in documents folder and upload below files)
            a.copy paste static and temp folders in that path which are available in "IVCSE_2021_B8\source"
            b.copy paste the dataset from "Dataset/dataset.zip" and extract there it results in train and test folders
+           
      iv)Now copy and paste the "IVCSE_2021_B8\Dataset\vgg_face_weights.h5" 
           in  "c:/users/(lenovo or username)/.deepface /weights" path
       v)Install mysql with help of "IVCSE_2021_B8\software\mysql guidelines"(while installing keep root as password)
